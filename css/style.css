@@ -1,0 +1,218 @@
+
+.bg-custom{
+   color: white;
+}
+
+.menu-a{
+    color: white !important;
+}
+
+.menu-active{
+    color: rgb(205, 50, 153) !important;
+}
+.menu-a:hover{
+    color: rgb(205, 50, 153) !important;
+}
+
+/*slider start*/
+.c_prev, .c_next {
+   
+    top: 85%;
+    bottom: 0;    
+    width: 5%;
+   
+}
+
+.c_prev {
+    left: 89%;
+    bottom: 0%;
+   
+}
+
+
+.c_next {
+   right: 0%;
+    bottom: 0%;
+   
+}
+
+
+/* integator start */
+.main_slider_ind {
+    top: 50%;
+    right: 70%;   
+    display:block;   
+    margin-right:2%;   
+    margin-left:2%;
+    width: 15px ;
+    height: 15px;
+   
+}
+
+.main_slider_ind button{
+ width: 15px !important;
+ height: 15px !important;
+
+}
+/* slider 02 */
+
+.c_caption {
+  
+    top: 50%;
+    color: #fff;
+    width: 60%;
+    text-align: left;
+}
+
+.c_caption h2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    position: relative;
+}
+.carousel-item img::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: blue;
+}
+
+/* slidr02 start */
+
+
+.slider02{
+    background-image: url(../images/slider03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.slider02::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.slider{
+    color: white;
+    background-color: rgb(3, 37, 37);
+    padding: 95px;
+}
+.slider h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.slider p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.slider button{
+    background: transparent;
+    color: wheat;
+    border-radius: 30px;
+    padding: 5px 25px;
+    transition: .3s;
+}
+.slider button:hover{
+    background:red;
+    color: white;
+}
+
+.other_ind button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: white !important;
+}
+/* slidr02 end */
+
+/* design house */
+.house-slider{
+   position: relative;
+   z-index: 1;
+  
+}
+.house-slider::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.house-slider h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.house-slider p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.house-slider button{
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 10px 20px;
+    outline: 0;
+    border: none;
+    margin-right: 20px;
+    color: white;
+}
+
+.house-01{
+    background-image: url(../images/house-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+ 
+}
+
+
+.house-02{
+    background-image: url(../images/house-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+}
+
+.house-03{
+    background-image: url(../images/house-03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px 0;
+}
+button.btn-2{
+    background: transparent;
+    border:1px solid rgb(27, 168, 86);
+}
+
+.house_ind{
+
+}
+.house_ind button{
+    width: 12px !important;
+    height: 12px !important;
+    background-color:white !important;
+    border-radius: 50%;
+}
+
+button.btn.btn-dark.smt {
+        margin-top: -6px;
+    }
